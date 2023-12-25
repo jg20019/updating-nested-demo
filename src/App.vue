@@ -32,16 +32,11 @@ const updateFaq = (newFaq) => {
 <template>
   <main>
     <Faq :faq="faq" @update="updateFaq" />
-    <pre> {{ faq }} </pre>
   </main>
 </template>
 
 <style scoped>
 header {
   line-height: 1.5;
-}
-
-main {
-  display: flex;
 }
 </style>
